@@ -1,8 +1,8 @@
 package services;
 
+
 import dao.FeedDao;
-import models.Feed;
-import models.User;
+import models.*;
 
 import java.util.List;
 
@@ -13,6 +13,8 @@ public class FeedService {
         List<Feed> feeds = feedDao.getFeeds(user);//some resource Intesive Operation returning Feed.
         return feeds;
     }
+
+
 
     //fetch tags starting with name ruby
 }

@@ -1,7 +1,7 @@
 package services;
 
 import dao.UserDao;
-import models.User;
+import models.*;
 
 import java.util.ArrayList;
 import java.util.List;

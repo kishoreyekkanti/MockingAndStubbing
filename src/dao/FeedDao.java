@@ -1,7 +1,6 @@
 package dao;
 
-import models.Feed;
-import models.User;
+import models.*;
 
 import java.util.Arrays;
 import java.util.List;
